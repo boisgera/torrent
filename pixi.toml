@@ -1,0 +1,16 @@
+[project]
+authors = ["Sébastien Boisgérault <Sebastien.Boisgerault@gmail.com>"]
+channels = ["conda-forge"]
+name = "torrent"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.2,<3.14"
+requests = ">=2.32.3,<3"
+marimo = ">=0.11.8,<0.12"
+
+[pypi-dependencies]
+bencodepy = ">=0.9.5, <0.10"
